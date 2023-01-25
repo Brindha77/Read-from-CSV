@@ -26,6 +26,7 @@ Step 5:Increase the maximum number of rows to display the entire DataFrame.
 ```
 Developed by:R.Brindha
 REGISTER NUMBER: 22008265
+
 import pandas as pd
 df= pd.read_csv("nba.csv")
 print(df.head(10))
@@ -34,7 +35,7 @@ print("column",len(df.axes[0]))
 print("rows",len(df.axes[1]))
 ```
 ## OUTPUT:
-![](./csv.png)
+![output](./csv.png)
 
 ## RESULT:
 Thus the program is written to read the csv file.
